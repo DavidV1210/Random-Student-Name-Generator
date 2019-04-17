@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title> Disney Child Selector</title>
+    <link rel="stylesheet" href="studentSelector.css">
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/waltograph" type="text/css"/>
+    <script src= "randomStudents(original).js"></script>
+    <script src="randomSound.js"></script>
+</head>
+<body onload="showNames()">
+    <div class="title"><h1>¡Buenos Días!</h1></div>
+    <audio autoplay>
+    <source src="http://soundfxcenter.com/music/movie-theme-songs/8d82b5_Disney_Intro_Theme_Song.mp3" type="">
+    </audio>
+    <button class= "button" id="submit" onclick="kickOff(),findSound()">Generar estudiante al azar</button>
+    <div class="studentListBlock"><p id="studentNames" ></p></div>
+    <div class="resultBlock"><h2 id="results"></h2></div>
+   <div class="videoWrapper">
+      <video id="celebrate" width="360" height="186" muted="muted">
+        <source src= "https://www.videvo.net/videvo_files/converted/2016_09/preview/Fireworks__1346.mp439504.webm" type="video/mp4">
+      </video>
+      <script>
+       var myMedia = document.getElementById("celebrate");
+       myMedia.onended = function endMedia(){
+         document.getElementById("celebrate").style.display = 'none';
+       }
+      </script>
+  </div>
+</body>
+</html>

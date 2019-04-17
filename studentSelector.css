@@ -1,0 +1,76 @@
+body{
+  background-image: url("https://bigriverride.com/wp-content/uploads/2018/12/best-i-ve-never-noticed-the-hidden-mickey-in-the-castle-opening-until-of-disney-castle-animated-of-disney-castle-animated.gif");
+  background-color: rgb(10, 10, 223);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+h1{
+  text-align: center;
+  font-family: 'WaltographRegular'; 
+  font-weight: normal; 
+  font-style: normal; 
+  font-size: 50px;
+  
+}
+div.title{
+  background-color:silver;
+  border: 1px solid black;
+  position: absolute;
+  left: 40%;
+  top: 18%;
+}
+div.studentListBlock{
+  background-color: silver;
+  border: 1px solid black;
+  position: absolute;
+  left: 19%;
+  top: 45%;
+  
+}
+p{
+  font-family: 'WaltographRegular'; 
+  font-weight: normal; 
+  font-style: normal;
+  text-align: center; 
+  font-size: 40px;
+}
+.button{
+  background-color: silver;
+  border: 1px solid black;
+  padding: 7px 10px;
+  font-family: 'WaltographRegular'; 
+  font-weight: normal; 
+  font-style: normal;
+  text-align: center;
+  font-size: 35px;
+  cursor: pointer; 
+  position: absolute;
+  left: 37%;
+  top: 37%;
+}
+div.resultBlock{
+  background-color: silver;
+  position: center center;
+  border: 2px solid purple;
+}
+h2{
+  font-family: 'WaltographRegular'; 
+  font-weight: normal; 
+  font-style: normal;
+  font-size: 45px;
+  text-align: center;
+}
+
+div.videoWrapper{
+  position: absolute;
+  top:55%;
+  left:35%;
+}
+video{
+  width: "320";
+  height: "176";
+}
+
+
